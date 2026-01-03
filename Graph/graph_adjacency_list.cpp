@@ -8,7 +8,7 @@ int main() {
     cin >> n >> m;
 
     // adjacency list (1-based indexing)
-    vector<vector<int>> adj(n + 1);
+    vector<int> adj[n+1];
 
     for (int i = 0; i < m; i++) {
         int u, v;
